@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="black"
+          fetch="https://github.com/BlackUI"
+          revision="ten" />
+
+
+  <project path="frameworks/base" name="frameworks_base" remote="black" />
+  <project path="system/core" name="system_core" remote="black" />
+
+</manifest>
