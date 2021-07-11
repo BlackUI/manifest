@@ -5,7 +5,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/BlackUI/manifest -b ten
+repo init -u https://github.com/BlackUI/manifest -b steppe --depth=1
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
